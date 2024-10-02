@@ -112,11 +112,6 @@ you earned a JavaScript badge!`}</Text>
       <View style={[styles.rectangle86, styles.rectangleTransform]} />
       <View style={[styles.rectangle87, styles.rectangleTransform]} />
       <View style={[styles.rectangle88, styles.rectangleTransform]} />
-      <Image
-        style={styles.httpslottiefilescomanimatIcon}
-        resizeMode="cover"
-        source={require("../assets/httpslottiefilescomanimationscongratsgghzd7yzo7.png")}
-      />
     </View>
   );
 };
@@ -955,13 +950,6 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(220, 188, 250, 0.35)",
     width: 16,
     height: 5,
-  },
-  httpslottiefilescomanimatIcon: {
-    top: 141,
-    left: -35,
-    width: 500,
-    height: 500,
-    position: "absolute",
   },
   correct: {
     backgroundColor: Color.colorLavender,
