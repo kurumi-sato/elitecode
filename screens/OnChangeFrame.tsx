@@ -4,6 +4,7 @@ import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
 import { FontSize, FontFamily, Color, Padding, Border } from "../GlobalStyles";
 
+
 const OnChangeFrame = () => {
   const navigation = useNavigation<StackNavigationProp<ParamListBase>>();
 
